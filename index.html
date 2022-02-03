@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TheEncryptionGame</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aldrich&display=swap" rel="stylesheet">
+   </head>
+<body>
+    <main class="main">
+        <h1 class="title">The Encryption Game</h1>  
+        <article class="article">
+          <div class="box encrypt-box">
+            <h3 class="encrypt-box-subtitle">Want to play? Follow the rules:
+            <div><center>1 Only lowercase letters</center></div> 
+            <div><center>2 No special characters</center></div></h3>
+            <br></br>
+            <textarea class="text-area" id="encrypt-text-area" name="textarea" rows="11" cols="50" placeholder="your secret message here" ></textarea>
+            <button id= "encrypt-button">Encrypt</button>
+          </div>
+          <div class="box decrypt-box">
+            <h2 class="subtitle">Detective Owl will help you solve the mistery!</h2>
+            <img class="image" src="/img/DetectiveOwl.png" alt="">
+            <textarea class="text-area" id="decrypt-text-area" name="textarea" rows="10" cols="50" placeholder="The Detective Owl is bored"></textarea>
+            <button id= "decrypt-button">Decrypt</button>
+            <button class= "secondary-button" id="copy-paste-button">Copy + Paste</button>
+            <button class= "secondary-button" id="copy-button">Copy</button>
+          </div>
+        </article>
+      </main>
+    <script src="script.js"></script>
+</body>
+<footer>Mariel 2022 :) © </footer>
+</html>
